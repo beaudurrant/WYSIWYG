@@ -1,0 +1,30 @@
+<html>
+
+	<head>
+		<script src="/js/WYSIWYG.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+	
+		<div id="textEditor_BUTTONS" class="WYSIWYG_BUTTONS"></div>
+		<iframe id="textEditor_FRAME" name="textEditor_FRAME" class="WYSIWYG_FRAME" src="WYSIWYG.html"></iframe>
+		<textarea id="textEditor" style='display:none'></textarea>
+			
+	    <div id="textEditor_MODAL" class="WYSIWYG_MODAL hidden">
+	        <div id="textEditor_MODAL_HEADER" class="WYSIWYG_MODAL_HEADER floatLeft"></div>
+	        <div class="floatRight"><a id="textEditor_MODAL_CLOSE" class="WYSIWYG_MODAL_CLOSE">X</a></div>
+	        <br style="clear: both;">
+	        <div id="textEditor_MODAL_CONTENT" class="WYSIWYG_MODAL_CONTENT"></div>
+	    </div>
+		
+		<script type="text/javascript">
+		    var textEditor = new WYSIWYG(
+		        'textEditor', 
+		        Array('bold', 'italic', 'underline', 'strikethrough', 'justifyleft', 'justifycenter', 'justifyright', 'indent', 'outdent', 'insertorderedlist', 'insertunorderedlist', 'subscript', 'superscript', 'delete', 'inserthorizontalrule', 'redo', 'undo'),
+		        Array('URL', 'IMAGE', 'HTML')
+		    );
+		</script>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,108 @@
+/**
+ * 
+ * The MIT License (MIT)
+ * 
+ * Copyright (c) 2015 Beau Durrant
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ * 
+ */
+
+/* STANDARD CLASSES */
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+/* FRAME */
+.WYSIWYG_FRAME{
+	border: 1px solid #CCC;
+	height: 200px;
+    width: 500px;
+}
+/* BUTTONS */
+.WYSIWYG_BUTTONS{
+	z-index: 500;
+	background: #FFF;
+}
+.WYSIWYG_BUTTONS button{
+	width: 20px;
+	height: 20px;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_bold{
+	background: url(/images/bold.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_italic{
+	background: url(/images/italic.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_underline{
+	background: url(/images/underline.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_strikethrough{
+	background: url(/images/strikethrough.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_justifyleft{
+	background: url(/images/justifyleft.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_justifycenter{
+	background: url(/images/justifycenter.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_justifyright{
+	background: url(/images/justifyright.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_insertorderedlist{
+	background: url(/images/insertorderedlist.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_insertunorderedlist{
+	background: url(/images/insertunorderedlist.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_subscript{
+	background: url(/images/subscript.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_superscript{
+	background: url(/images/superscript.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_delete{
+	background: url(/images/delete.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_inserthorizontalrule{
+	background: url(/images/inserthorizontalrule.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_undo{
+	background: url(/images/undo.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_redo{
+	background: url(/images/redo.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_indent{
+	background: url(/images/indent.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_outdent{
+	background: url(/images/outdent.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_URL{
+	background: url(/images/URL.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_IMAGE{
+	background: url(/images/IMAGE.png) 50% 50% no-repeat;
+}
+.WYSIWYG_BUTTONS button.WYSIWYG_HTML{
+	background: url(/images/HTML.png) 50% 50% no-repeat;
+}
